@@ -1,0 +1,21 @@
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+public class Gamepanel extends JPanel {
+	public static final int length = 700;
+	public static final int width = 700;
+
+	public Gamepanel() {
+		setPreferredSize(new Dimension(length, width));
+	}
+
+	public void paint(Graphics g) {
+		g.setColor(Color.YELLOW);
+		g.fillRect(0, 0, length, width);
+		
+	}
+
+}
