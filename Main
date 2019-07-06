@@ -1,0 +1,16 @@
+import javax.swing.JFrame;
+
+public class Main {
+
+	public static void main(String [] args) {
+		JFrame frame = new JFrame();
+		Gamepanel gamepanel = new Gamepanel();
+		frame.add(gamepanel);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setTitle("Maul Stars");
+		frame.pack();
+		frame.setVisible(true);
+		frame.setLocationRelativeTo(null);
+	}
+	
+}
